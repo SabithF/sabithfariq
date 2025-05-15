@@ -15,10 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    cjm,
+    animatist_logo,
+    front_logo,
+    myshop,
     carrent,
     jobit,
     tripguide,
@@ -42,21 +42,22 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Web Development",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "UI/UX Design",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Data Analysis",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Content Creation",
       icon: creator,
     },
+    
   ];
   
   const technologies = [
@@ -116,55 +117,53 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Web Developer & Digital Marketer",
+      company_name: "Animatist (Pvt) Ltd",
+      icon: animatist_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "2021 - 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed responsive websites and web apps using HTML, CSS, JavaScript and frameworks",
+        "Designed UI/UX using Figma and Adobe XD, ensuring user-centric designs.",
+        "Boosted organic search traffic by 60% through SEO strategies and analytics.",
+        "Managed Google Ads campaigns, reducing cost per acquisition by 40%.",
+        "Created content for social media, blogs, and email marketing.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "IT Auditor",
+      company_name: "Frontier Advisory (Pvt) Ltd",
+      icon: front_logo,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "July 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducted thorough risk assessments of IT systems, identifying vulnerabilities and advising on controls tomitigate potential threats and ensure data integrity.",
+        "Analyzed existing IT processes and controls, recommending and implementing improvements that enhancedefficiency, security and compliance.",
+       
+      ],
+    },
+    {
+      title: "Information Technology Consultant",
+      company_name: "Ceylon Jewelry Manufacturers",
+      icon: cjm,
+      iconBg: "#383E56",
+      date: "2023",
+      points: [
+        "Optimized IT infrastructure for robust network performance and connectivity",
+        "Integrated a new ERP system, enhancing operational efficiency and data accuracy.",
+        "Trained staff on ERP functionalities, boosting productivity.",
+        
+      ],
+    },
+    {
+      title: "Digital Marketing Specialist",
+      company_name: "Myshop.lk (Pvt) Ltd 11/2017",
+      icon: myshop,
+      iconBg: "#E6DEDD",
+      date: "2017 - 2021",
+      points: [
+        "Directed social media campaigns, increasing sales by 40%.",
+        "Conducted SEO optimizations, resulting in a 60% traffic increase.",
       ],
     },
   ];

@@ -7,6 +7,7 @@ const Hero = () => {
   return (
     <section className='relative w-full h-screen
     mx-auto'>
+      {/* Line */}
       <div className={`${styles.paddingX} absolute inset-0
       top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         {/* Ball and line */}
@@ -19,12 +20,12 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            Hi, I'm <span className='text-[#915eff]'>Sabith
+            Hi, I'm <span className='text-[#ad241c] font-rocksalt'>Sabith
               </span>
           </h1>
           <p className={`${styles.heroSubText}`}>
-            I'm a Full Stack Developer <br className='sm:block hidden'/>
-            and also provide UI UX designs with Digital Marketing  
+          Transforming Ideas into Reality <br className='sm:block hidden '/>
+          <span className='text-white-100'>WEb deve | UI/UX | Digital Marketing</span>
           </p>
         </div>
       </div>

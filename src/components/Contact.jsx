@@ -119,7 +119,7 @@ const Contact = () => {
                   {loading ? 'Submitting...' : 'Submit'}
               </button>
         </form>
-      </motion.div>
+      </motion.div> 
       {/* Earth model */}
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}

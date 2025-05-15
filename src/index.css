@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -124,6 +126,12 @@
   text-indent: -9999em;
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
+}
+
+@theme{
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-rocksalt: "Rock Salt", cursive;
 }
 
 @keyframes mulShdSpin {

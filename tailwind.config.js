@@ -21,6 +21,11 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        rocksalt: ["Rock Salt", "cursive"],
+      },
     },
   },
   plugins: [],
