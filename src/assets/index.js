@@ -30,6 +30,8 @@ import animatist_logo from "./company/animatist_logo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ui from "./ui.png";
+import linkIcon from "./export.png";
 
 export {
   logo,
@@ -61,4 +63,6 @@ export {
   front_logo,
   myshop,
   cjm,
+  ui,
+  linkIcon,
 };

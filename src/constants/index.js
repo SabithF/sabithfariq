@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    ui,
+    linkIcon,
   } from "../assets";
   
   export const navLinks = [
@@ -197,67 +199,87 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Leisure Diary Mobile Application",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Built a service booking platform includingmobile and web apps with secure authentication and real-time API integration.",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
+        },
+        {
+          name: "nodeJs",
+          color: "red-text-gradient",
         },
         {
           name: "mongodb",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/SabithF/Leisure-Diary---Web-and-Mobile-applicaiton",
     },
     {
-      name: "Job IT",
+      name: "Haskell Web Data Harvester",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Built a Haskell app to fetch, parse, store, andquery JSON data from TFL web API using a modular design.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "Haskell",
           color: "pink-text-gradient",
         },
+        {
+          name: "sqLite",
+          color: "white-text-gradient",
+        },
+        
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Thananont/haskell-project",
     },
     {
-      name: "Trip Guide",
+      name: "Concurrent Web Simulator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Designed a multi-threaded Haskellapp simulating a web server handling HTTP-like requests. Used MVars for thread-saferequest queuing and response handling.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "haskell",
           color: "pink-text-gradient",
+        },
+        {
+          name: "sqLite",
+          color: "white-text-gradient",
+        },
+        {
+          name: "concurrency",
+          color: "green-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/SabithF/Haskell_concurrency_threading/tree/main/haskellConcurrency",
+    },
+     {
+      name: "UI/UX Designs",
+      description:
+        "Visit my Behance profile to see my UI/UX designs.",
+      tags: [
+        {
+          name: "figma",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "adobeXD",
+          color: "white-text-gradient",
+        },
+        {
+          name: "photoshop",
+          color: "green-text-gradient",
+        },
+      ],
+      image: ui,
+      source_code_link: "https://www.behance.net/sabith_fariq",
+      custom_icon: linkIcon,
     },
   ];
   

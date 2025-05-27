@@ -51,7 +51,7 @@ const About = () => {
       <motion.p 
         variants={fadeIn("","", 0.1,1)}
         className='mt-4 text-secondary text-[17px] 
-        max-w-3xl leading-[30px]'
+        max-w-auto leading-[30px]'
         >
           I am a software engineer with a passion for web development and design. I have experience in building web applications using modern web technologies. I am proficient in React, Node.js, Express, and MongoDB. I am also familiar with Python, Django, and Flask. I am a quick learner and I am always looking to learn new technologies and improve my skills. I am passionate about building high-quality web applications that are user-friendly and accessible. I am also interested in UI/UX design and I enjoy creating visually appealing and intuitive user interfaces. I am a team player and I work well with others. I am a good communicator and I am able to work effectively in a fast-paced environment. I am a problem solver and I am able to think creatively and come up with innovative solutions to complex problems. I am a hard worker and I am dedicated to delivering high-quality work on time. I am looking for new opportunities to work on exciting projects and collaborate with talented individuals
         

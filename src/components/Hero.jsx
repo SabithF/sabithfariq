@@ -19,13 +19,13 @@ const Hero = () => {
             violet-gradient"/>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText}`}>
-            Hi, I'm <span className='text-[#ad241c] font-rocksalt'>Sabith
+          <h1 className={`${styles.heroHeadTextSmall} font-montserrat`} >
+            Hi, I'm <span className='text-[#ad241c] text-[80px] font-rocksalt'>Sabith
               </span>
           </h1>
-          <p className={`${styles.heroSubText}`}>
-          Transforming Ideas into Reality <br className='sm:block hidden '/>
-          <span className='text-white-100'>WEb deve | UI/UX | Digital Marketing</span>
+          <p className={`${styles.heroSubText} mt-10 font-light`} >
+          Transforming <span className='text-white font-zain font-bold text-[60px]'>Ideas</span>  into <span className='text-white font-zain font-bold text-[60px]'>Reality</span> <br className='sm:block hidden '/>
+          {/* <span className='text-white-100'>WEb deve | UI/UX | Digital Marketing</span> */}
           </p>
         </div>
       </div>

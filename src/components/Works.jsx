@@ -9,7 +9,7 @@ import React from 'react';
 // import { scale } from "maath/dist/declarations/src/vector2";
 
 
-const ProjectCard = ({index, name , description, tags, image , source_code_link} ) => {
+const ProjectCard = ({index, name , description, tags, image , source_code_link, custom_icon }) => {
   return (
     <motion.div variants={fadeIn("up","spring", index * 0.5,0.75)}> 
       <Tilt
@@ -20,12 +20,19 @@ const ProjectCard = ({index, name , description, tags, image , source_code_link}
           className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
           >
 
-          <div className="realtive w-full h-[230px]">
-            <img 
+          <div className=" w-full h-[230px] cursor-pointer"
+            onClick={() => window.open(source_code_link, "_blank")}
+          >
+        
+            
+            <a href="{source_code_link}" target="_blank" rel="noopener noreferrer" >
+              <img 
               src={image} 
               alt={name} 
+              href={source_code_link}
               className="w-full h-full object-cover rounded-2xl"
                />
+            </a>
           <div className="absolute inset-0 flex justify-end
           m-3 card-img_hover">
             <div
@@ -34,7 +41,7 @@ const ProjectCard = ({index, name , description, tags, image , source_code_link}
               items-center cursor-pointer">
 
                 <img 
-                  src={github} 
+                  src={ custom_icon || github } 
                   alt="github link"
                   className="w-1/2 h-1/2 object-contain " />
 
@@ -86,7 +93,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px]
           max-w-3xl leading-[30px]"
         >
-          Here are some of the projects that I have worked on. You can check out the source code on my Github.
+          Here are some of the projects that I have worked on.
          </motion.p>
       </div>
 
