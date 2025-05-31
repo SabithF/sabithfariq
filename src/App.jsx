@@ -10,12 +10,12 @@ import {
   Works,
   StarsCanvas,
 } from './components';  
-import Projects from './pages/projects'; // 👈 Capitalized component name
+import Projects from './pages/projects'; 
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
+      <div className='relative z-0 bg-black'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
         </div>
